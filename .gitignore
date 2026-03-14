@@ -1,0 +1,15 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Node
+node_modules/
+dist/
+.env
+
+# SQLite (keep the file but ignore WAL/SHM locks)
+*.sqlite-wal
+*.sqlite-shm
